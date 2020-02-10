@@ -7,6 +7,18 @@ public class Application {
      * 心满意足之后就睡觉了。
      */
     public static void main(String[] args) {
+        eagles eagle = new eagles();
+        eagle.age = "四岁";
+        eagle.weight = "5kg";
+        eagle.food = "rabbit";
+
+
+        eagle.live();
+
+        eagle.fly("翱翔天宫");
+        eagle.prey(eagle.food);
+        eagle.eat();
+        eagle.sleep("老鹰");
 
     }
 }
